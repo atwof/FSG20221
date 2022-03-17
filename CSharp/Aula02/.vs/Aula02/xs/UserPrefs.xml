@@ -1,14 +1,14 @@
-﻿<Properties StartupConfiguration="{BEEDF9C5-0A3A-4B09-9720-9224EF8EA77C}|Default">
-  <MonoDevelop.Ide.ItemProperties.Aula2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{7749789B-DBF4-4AE1-9545-14FC8F23AF57}|Default">
+  <MonoDevelop.Ide.ItemProperties.Aula02 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Aula02/Program.cs">
     <Files>
-      <File FileName="Aula2/Program.cs" Line="18" Column="1" />
+      <File FileName="Aula02/Program.cs" Line="68" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Aula2" expanded="True">
-            <Node name="Aula2" expanded="True">
+          <Node name="Aula02" expanded="True">
+            <Node name="Aula02" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>

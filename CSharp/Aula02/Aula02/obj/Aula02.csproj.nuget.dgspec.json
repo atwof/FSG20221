@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fritzen.alisson/Projects/Aula2/Aula2/Aula2.csproj": {}
+    "/Users/fritzen.alisson/Projects/CSharp/Aula02/Aula02/Aula02.csproj": {}
   },
   "projects": {
-    "/Users/fritzen.alisson/Projects/Aula2/Aula2/Aula2.csproj": {
+    "/Users/fritzen.alisson/Projects/CSharp/Aula02/Aula02/Aula02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fritzen.alisson/Projects/Aula2/Aula2/Aula2.csproj",
-        "projectName": "Aula2",
-        "projectPath": "/Users/fritzen.alisson/Projects/Aula2/Aula2/Aula2.csproj",
+        "projectUniqueName": "/Users/fritzen.alisson/Projects/CSharp/Aula02/Aula02/Aula02.csproj",
+        "projectName": "Aula02",
+        "projectPath": "/Users/fritzen.alisson/Projects/CSharp/Aula02/Aula02/Aula02.csproj",
         "packagesPath": "/Users/fritzen.alisson/.nuget/packages/",
-        "outputPath": "/Users/fritzen.alisson/Projects/Aula2/Aula2/obj/",
+        "outputPath": "/Users/fritzen.alisson/Projects/CSharp/Aula02/Aula02/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/fritzen.alisson/.config/NuGet/NuGet.Config"
