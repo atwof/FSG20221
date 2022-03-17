@@ -29,7 +29,7 @@ namespace Aula02
             if (pegouRecuperacao(notaFinal, media))
             {
                 double valorFalta;
-                double nota`Precisa;
+                double notaPrecisa;
 
                 valorFalta = media - notaFinal;
 

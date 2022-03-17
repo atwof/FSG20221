@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{7749789B-DBF4-4AE1-9545-14FC8F23AF57}|Default">
   <MonoDevelop.Ide.ItemProperties.Aula02 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Aula02/Program.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Aula02/Program.cs" Line="68" Column="2" />
+      <File FileName="Aula02/Program.cs" Line="32" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
