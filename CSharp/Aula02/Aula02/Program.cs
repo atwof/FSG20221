@@ -7,7 +7,7 @@ namespace Aula02
         static void Main(string[] args)
         {
 
-            int media = 66;
+            int media = 6;
 
             Console.Write("Digite a primeira nota do aluno: ");
             double n1 = double.Parse(Console.ReadLine());
