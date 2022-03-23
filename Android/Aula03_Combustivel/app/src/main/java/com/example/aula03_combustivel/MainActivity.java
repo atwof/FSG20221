@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void calcularOpcao(View v)
     {
-        String option;
+        String opt;
 
         try
         {
@@ -41,12 +41,12 @@ public class MainActivity extends AppCompatActivity {
             double result = valorAl / valorGa;
 
             if (result <= 0.7) {
-                option = "UTILIZE ÁLCOOL";
+                opt = "UTILIZE ÁLCOOL";
             } else {
-                option = "UTILIZE GASOLINA";
+                opt = "UTILIZE GASOLINA";
             }
 
-            txtResult.setText(option);
+            txtResult.setText(opt);
         }
         catch(Exception e)
         {
