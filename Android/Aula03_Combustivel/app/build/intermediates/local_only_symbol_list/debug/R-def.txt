@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable posto
+id btnCalcular
+id btnSair
+id imageView
+id inputAlcool
+id inputGasolina
+id textInputLayout
+id textInputLayout2
+id txtGasolina
+id txtMensagem
+id txtResultado
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+mipmap posto
+string app_name
+style Theme.Aula03_Combustivel
