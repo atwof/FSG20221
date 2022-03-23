@@ -10,35 +10,48 @@ import com.google.android.material.textfield.TextInputEditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    private TextView txtResult;
+    private TextInputEditText valorGasolina;
+    private TextInputEditText valorAlcool;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        txtResult = findViewById(R.id.txtResultado);
+        valorGasolina = findViewById(R.id.inputGasolina);
+        valorAlcool = findViewById(R.id.inputAlcool);
+    }
+
+    public void fecharPrograma(View v)
+    {
+        System.exit(0);
     }
 
     public void calcularOpcao(View v)
     {
-        double resutado;
-        String opcao;
+        String option;
 
-        TextView txtResultado = findViewById(R.id.txtResultado);
-        TextInputEditText valorGasolina = findViewById(R.id.inputGasolina);
-        TextInputEditText valorAlcool = findViewById(R.id.inputAlcool);
-
-        double valorAl = Double.valueOf(valorAlcool.getText().toString());
-        double valorGa = Double.valueOf(valorGasolina.getText().toString());
-
-        resutado = valorAl / valorGa;
-
-        if(resutado <= 0.7)
+        try
         {
-            opcao = "UTILIZE ÁLCOOL";
+            double valorAl = Double.parseDouble(valorAlcool.getText().toString());
+            double valorGa = Double.parseDouble(valorGasolina.getText().toString());
+
+            double result = valorAl / valorGa;
+
+            if (result <= 0.7) {
+                option = "UTILIZE ÁLCOOL";
+            } else {
+                option = "UTILIZE GASOLINA";
+            }
+
+            txtResult.setText(option);
         }
-        else
+        catch(Exception e)
         {
-            opcao = "UTILIZE GASOLINA";
+            txtResult.setText("Digite valores para continuar");
         }
 
-        txtResultado.setText(opcao);
     }
 }
