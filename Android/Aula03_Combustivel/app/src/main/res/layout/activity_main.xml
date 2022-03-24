@@ -107,6 +107,7 @@
         android:layout_height="47dp"
         android:clickable="true"
         android:onClick="fecharPrograma"
+        app:fabSize="mini"
         app:layout_constraintBottom_toBottomOf="@+id/txtResultado"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.35"
