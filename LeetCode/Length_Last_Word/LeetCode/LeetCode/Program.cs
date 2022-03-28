@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace LeetCode
 {
@@ -6,50 +7,46 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
+            string k = "  23\f6??6f\'32LL";
 
-            string[] strs = { "flower", "flow", "flight" };
+            var x = IsPalindrome(k);
 
-            string y = LongestCommonPrefix(strs);
-
+            Console.WriteLine(x);
         }
 
-        public static string LongestCommonPrefix(string[] strs)
+        public static bool IsPalindrome(string s)
         {
+            string sTrimmed = s.Trim().ToLower();
+            
+            StringBuilder sOriginal = new StringBuilder();
+            StringBuilder sReversed = new StringBuilder();
 
-            int size = 0;
-            for(int x = 1; x < strs.Length; x++)
+            // Correto
+            for (int i = 0; i < sTrimmed.Length; i++)
             {
-                if(strs[x].Length > size)
+                if(char.IsLetterOrDigit(s[i]))
                 {
-                    size = x;
+                    sOriginal.Append(s[i].ToString().ToLower());
                 }
             }
 
-            string posUm = strs[size];
-            string resul = null;
-            int cont = 0;
-
-            for(int i = 1; i < strs.Length; i++)
+            // Reverso
+            for (int i = sOriginal.Length; i  > 0; i--)
             {
-                for (int j = 1; j < posUm.Length; j++)
-                { 
-                    if (posUm[j - 1] == strs[i][j - 1])
-                    {
-                        continue;
-                    }
-                    cont++;
-                }
-                
-            }
-            if (cont > 0)
-            {
-                for (int k = 0; k < cont; k++)
+                if (char.IsLetterOrDigit(sOriginal[i-1]))
                 {
-                    resul += strs[1][k];
+                    sReversed.Append(sOriginal[i-1].ToString().ToLower());
                 }
             }
-            return null;
+
+            if(sOriginal.ToString() == sReversed.ToString())
+            {
+                return true;
+            }
+
+            return false;
         }
-
     }
 }
+
+

@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{165E58A3-8FBE-4BCD-B268-95FEE0E4FBC3}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="LeetCode/Program.cs">
     <Files>
-      <File FileName="LeetCode/Program.cs" Line="18" Column="1" />
+      <File FileName="LeetCode/Program.cs" Line="25" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,13 +13,24 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>sOriginal</Value>
+          <Value>sReversed</Value>
+          <Value>sTrimmed</Value>
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.LeetCode PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/fritzen.alisson/Projects/LeetCode/Length_Last_Word/LeetCode/LeetCode/Program.cs" relfile="LeetCode/Program.cs" line="34" column="1" />
+      <Breakpoint file="/Users/fritzen.alisson/Projects/LeetCode/Length_Last_Word/LeetCode/LeetCode/Program.cs" relfile="LeetCode/Program.cs" line="42" column="1" />
+      <Breakpoint file="/Users/fritzen.alisson/Projects/LeetCode/Length_Last_Word/LeetCode/LeetCode/Program.cs" relfile="LeetCode/Program.cs" line="19" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

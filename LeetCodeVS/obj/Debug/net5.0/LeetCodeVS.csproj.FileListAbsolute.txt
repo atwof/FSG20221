@@ -1,0 +1,15 @@
+/Users/fritzen.alisson/Projects/LeetCodeVS/bin/Debug/net5.0/LeetCodeVS.deps.json
+/Users/fritzen.alisson/Projects/LeetCodeVS/bin/Debug/net5.0/LeetCodeVS.runtimeconfig.json
+/Users/fritzen.alisson/Projects/LeetCodeVS/bin/Debug/net5.0/LeetCodeVS.runtimeconfig.dev.json
+/Users/fritzen.alisson/Projects/LeetCodeVS/bin/Debug/net5.0/LeetCodeVS.dll
+/Users/fritzen.alisson/Projects/LeetCodeVS/bin/Debug/net5.0/ref/LeetCodeVS.dll
+/Users/fritzen.alisson/Projects/LeetCodeVS/bin/Debug/net5.0/LeetCodeVS.pdb
+/Users/fritzen.alisson/Projects/LeetCodeVS/obj/Debug/net5.0/LeetCodeVS.csproj.AssemblyReference.cache
+/Users/fritzen.alisson/Projects/LeetCodeVS/obj/Debug/net5.0/LeetCodeVS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fritzen.alisson/Projects/LeetCodeVS/obj/Debug/net5.0/LeetCodeVS.AssemblyInfoInputs.cache
+/Users/fritzen.alisson/Projects/LeetCodeVS/obj/Debug/net5.0/LeetCodeVS.AssemblyInfo.cs
+/Users/fritzen.alisson/Projects/LeetCodeVS/obj/Debug/net5.0/LeetCodeVS.csproj.CoreCompileInputs.cache
+/Users/fritzen.alisson/Projects/LeetCodeVS/obj/Debug/net5.0/LeetCodeVS.dll
+/Users/fritzen.alisson/Projects/LeetCodeVS/obj/Debug/net5.0/ref/LeetCodeVS.dll
+/Users/fritzen.alisson/Projects/LeetCodeVS/obj/Debug/net5.0/LeetCodeVS.pdb
+/Users/fritzen.alisson/Projects/LeetCodeVS/obj/Debug/net5.0/LeetCodeVS.genruntimeconfig.cache
