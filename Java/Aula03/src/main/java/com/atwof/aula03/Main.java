@@ -8,20 +8,22 @@ public class Main
 {
     public static void main(String[] args)
     {
-        // 1
+        // Exercício 1
         System.out.println("A nota foi " + retornarNota(7.8));
         
-        //2
+        // Exercício 2
+        // Torna a manutenção mais fácil;
+        // Torna o código mais fácil de ler;
+        // Códigos com chances menores de erro por alteração.
         
-        
-        //3
+        // Exercício 3
         System.out.println("O primeiro dia da semana é " + diasDaSemana.PRIMEIRO.getDiaSemana());
         
-        //4
+        // Exercício 4
         System.out.println("Outubro é o " + meses.OUTUBRO.getMes() +  " mês do ano");
         
-        //5
-        if(confirma.TRUE.getConfirma())
+        // Exercício 5
+        if(confirma.FALSE.getConfirma())
         {
             System.out.println("Confirmou!");
         }
@@ -30,15 +32,14 @@ public class Main
             System.out.println("Não confirmou!");
         }
         
-        //6
+        // Exercício 6
         System.out.println("As modalidades presentes no evento foram: " + esporte.FUTEBOL.getOpcao() + ", " 
                                                                         + esporte.DANCA.getOpcao() + " e "
-                                                                        + esporte.NATACAO.getOpcao());
-        
+                                                                        + esporte.NATACAO.getOpcao());       
     }
     
     public static char retornarNota(double valor)
-   {
+    {
        char n;
        
        if(valor >= 9.00)
@@ -63,7 +64,7 @@ public class Main
        }
        
        return n;
-   }
+    }
     
     public enum diasDaSemana
     {

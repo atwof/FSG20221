@@ -10,15 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="425ad9aa-3cc2-4759-86df-25d274de830c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/.vs/LeetCode/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/.vs/LeetCode/xs/UserPrefs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/bin/Debug/net5.0/LeetCode.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/bin/Debug/net5.0/LeetCode.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/bin/Debug/net5.0/LeetCode.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/bin/Debug/net5.0/LeetCode.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/bin/Debug/net5.0/ref/LeetCode.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/bin/Debug/net5.0/ref/LeetCode.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/obj/Debug/net5.0/LeetCode.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/obj/Debug/net5.0/LeetCode.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/obj/Debug/net5.0/LeetCode.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/obj/Debug/net5.0/LeetCode.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/obj/Debug/net5.0/ref/LeetCode.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeetCode/Length_Last_Word/LeetCode/LeetCode/obj/Debug/net5.0/ref/LeetCode.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Aula03/src/main/java/com/atwof/aula03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Aula03/src/main/java/com/atwof/aula03/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
