@@ -7,44 +7,47 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            string k = "  23\f6??6f\'32LL";
+            int[] k = { 3, 1, 3, 4, 2 };
 
-            var x = IsPalindrome(k);
+            var x = FindDuplicate(k);
 
             Console.WriteLine(x);
         }
 
-        public static bool IsPalindrome(string s)
+        public static int FindDuplicate(int[] nums)
         {
-            string sTrimmed = s.Trim().ToLower();
-            
-            StringBuilder sOriginal = new StringBuilder();
-            StringBuilder sReversed = new StringBuilder();
 
-            // Correto
-            for (int i = 0; i < sTrimmed.Length; i++)
+            int cont = 0;
+            int valor = 0;
+
+            for (int i = 0; i < nums.Length; i++)
             {
-                if(char.IsLetterOrDigit(s[i]))
+                for (int j = i; j < nums.Length; j++)
                 {
-                    sOriginal.Append(s[i].ToString().ToLower());
+                    if(nums[i] == nums[j])
+                    {
+                        cont++;
+                    }
+
+                    if (cont > 1)
+                    {
+                        valor = nums[i];
+                        break;
+                    }
+                }
+
+                if(cont > 1)
+                {
+                    break;
+                }
+                else
+                {
+                    valor = 0;
+                    cont = 0;
                 }
             }
 
-            // Reverso
-            for (int i = sOriginal.Length; i  > 0; i--)
-            {
-                if (char.IsLetterOrDigit(sOriginal[i-1]))
-                {
-                    sReversed.Append(sOriginal[i-1].ToString().ToLower());
-                }
-            }
-
-            if(sOriginal.ToString() == sReversed.ToString())
-            {
-                return true;
-            }
-
-            return false;
+            return valor;
         }
     }
 }
