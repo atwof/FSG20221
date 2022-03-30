@@ -28,6 +28,10 @@
         "source": "/Users/fritzen.alisson/Projects/Android/Aula03_Combustivel/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/Users/fritzen.alisson/Projects/Android/Aula03_Combustivel/app/build/intermediates/merged_res/debug/drawable_outline_local_gas_station_white_48.png.flat",
+        "source": "/Users/fritzen.alisson/Projects/Android/Aula03_Combustivel/app/src/main/res/drawable/outline_local_gas_station_white_48.png"
+    },
+    {
         "merged": "/Users/fritzen.alisson/Projects/Android/Aula03_Combustivel/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/fritzen.alisson/Projects/Android/Aula03_Combustivel/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },

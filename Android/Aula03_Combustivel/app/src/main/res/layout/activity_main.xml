@@ -4,26 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="360dp"
         android:layout_height="160dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.37"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/posto" />
+        app:srcCompat="@drawable/outline_local_gas_station_white_48" />
 
     <TextView
         android:id="@+id/txtMensagem"
         android:layout_width="361dp"
         android:layout_height="36dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="CALCULADORA"
         android:textAlignment="center"
+        android:textColor="@color/colorSecondary"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,6 +43,7 @@
         android:layout_height="18dp"
         android:text="Álcool ou Gasolina?"
         android:textAlignment="center"
+        android:textColor="@color/colorSecondary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,75 +51,59 @@
 
     <Button
         android:id="@+id/btnCalcular"
-        android:layout_width="222dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="254dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/colorSecondary"
         android:onClick="calcularOpcao"
-        android:text="CALCULAR"
+        android:text="@string/calcular"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="12sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout2"
-        android:layout_width="297dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtGasolina">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/inputGasolina"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="Preço da gasolina"
-            android:inputType="numberDecimal"
-            android:textAlignment="center" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
-        android:layout_width="300dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/inputAlcool"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Preço do Álcool"
-            android:inputType="numberDecimal"
-            android:textAlignment="center" />
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintTop_toBottomOf="@+id/inputAlcool" />
 
     <TextView
         android:id="@+id/txtResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCalcular" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/btnSair"
-        android:layout_width="42dp"
-        android:layout_height="47dp"
-        android:clickable="true"
-        android:onClick="fecharPrograma"
-        app:fabSize="mini"
-        app:layout_constraintBottom_toBottomOf="@+id/txtResultado"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.35"
-        app:layout_constraintStart_toEndOf="@+id/btnCalcular"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/ic_delete" />
+    <EditText
+        android:id="@+id/inputGasolina"
+        android:layout_width="301dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Preço da gasolina"
+        android:inputType="numberDecimal"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/txtGasolina"
+        tools:layout_editor_absoluteX="55dp" />
+
+    <EditText
+        android:id="@+id/inputAlcool"
+        android:layout_width="301dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Preço do Álcool"
+        android:inputType="numberDecimal"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/inputGasolina"
+        tools:layout_editor_absoluteX="55dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

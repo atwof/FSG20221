@@ -3,6 +3,9 @@ package com.example.aula03_combustivel;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
 
@@ -24,17 +27,11 @@ public class MainActivity extends AppCompatActivity {
         valorAlcool = findViewById(R.id.inputAlcool);
     }
 
-    public void fecharPrograma(View v)
-    {
-        System.exit(0);
-    }
+    public void calcularOpcao(View v) {
 
-    public void calcularOpcao(View v)
-    {
         String opt;
 
-        try
-        {
+        try {
             double valorAl = Double.parseDouble(valorAlcool.getText().toString());
             double valorGa = Double.parseDouble(valorGasolina.getText().toString());
 
@@ -47,11 +44,15 @@ public class MainActivity extends AppCompatActivity {
             }
 
             txtResult.setText(opt);
-        }
-        catch(Exception e)
-        {
+
+            // Initialize
+            valorAlcool.setText(null);
+            valorGasolina.setText(null);
+
+            valorGasolina.requestFocus();
+
+        } catch (Exception e) {
             txtResult.setText("Digite valores para continuar");
         }
-
     }
 }
