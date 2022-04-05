@@ -15,7 +15,7 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">Aula03_Combustivel</string>
+    <string name="app_name">Qual combustivel escolher?</string>
     <string name="calcular">CALCULAR</string>
     <string name="precoAlcool">Preço do Álcool</string>
     <string name="precoGasolina">Preço da Gasolina</string>

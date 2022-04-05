@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Aula03_Combustivel</string>
+    <string name="app_name">Qual combustivel escolher?</string>
     <string name="precoGasolina">Preço da Gasolina</string>
     <string name="precoAlcool">Preço do Álcool</string>
     <string name="calcular">CALCULAR</string>

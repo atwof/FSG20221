@@ -3,19 +3,15 @@ package com.example.aula03_combustivel;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.view.MotionEvent;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
-
-import com.google.android.material.textfield.TextInputEditText;
 
 public class MainActivity extends AppCompatActivity {
 
     private TextView txtResult;
-    private TextInputEditText valorGasolina;
-    private TextInputEditText valorAlcool;
+    private EditText valorGasolina;
+    private EditText valorAlcool;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,14 +41,18 @@ public class MainActivity extends AppCompatActivity {
 
             txtResult.setText(opt);
 
-            // Initialize
-            valorAlcool.setText(null);
-            valorGasolina.setText(null);
+            limpVariable(valorAlcool);
+            limpVariable(valorGasolina);
 
             valorGasolina.requestFocus();
 
         } catch (Exception e) {
             txtResult.setText("Digite valores para continuar");
         }
+    }
+
+    private void limpVariable(EditText e)
+    {
+        e.setText(null);
     }
 }
