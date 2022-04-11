@@ -6,16 +6,10 @@ namespace Aula04
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 15; i++)
-            {
-                Console.WriteLine(fibo(i));
-            }
+            Console.WriteLine("Digite um valor");
+            string v = Console.ReadLine();
 
-            for (int j = 0; j < 15; j++)
-            {
-                int x = fiboRecur(j);
-                Console.WriteLine(x);
-            }
+            int n = int.Parse(v);
         }
 
         private static int fibo(int n)

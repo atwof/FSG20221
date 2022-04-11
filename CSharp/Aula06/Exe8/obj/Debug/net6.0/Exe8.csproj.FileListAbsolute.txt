@@ -1,0 +1,15 @@
+/Users/fritzen.alisson/Desktop/Exe/Exe8/bin/Debug/net6.0/Exe8
+/Users/fritzen.alisson/Desktop/Exe/Exe8/bin/Debug/net6.0/Exe8.deps.json
+/Users/fritzen.alisson/Desktop/Exe/Exe8/bin/Debug/net6.0/Exe8.runtimeconfig.json
+/Users/fritzen.alisson/Desktop/Exe/Exe8/bin/Debug/net6.0/Exe8.dll
+/Users/fritzen.alisson/Desktop/Exe/Exe8/bin/Debug/net6.0/Exe8.pdb
+/Users/fritzen.alisson/Desktop/Exe/Exe8/obj/Debug/net6.0/Exe8.csproj.AssemblyReference.cache
+/Users/fritzen.alisson/Desktop/Exe/Exe8/obj/Debug/net6.0/Exe8.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fritzen.alisson/Desktop/Exe/Exe8/obj/Debug/net6.0/Exe8.AssemblyInfoInputs.cache
+/Users/fritzen.alisson/Desktop/Exe/Exe8/obj/Debug/net6.0/Exe8.AssemblyInfo.cs
+/Users/fritzen.alisson/Desktop/Exe/Exe8/obj/Debug/net6.0/Exe8.csproj.CoreCompileInputs.cache
+/Users/fritzen.alisson/Desktop/Exe/Exe8/obj/Debug/net6.0/Exe8.dll
+/Users/fritzen.alisson/Desktop/Exe/Exe8/obj/Debug/net6.0/refint/Exe8.dll
+/Users/fritzen.alisson/Desktop/Exe/Exe8/obj/Debug/net6.0/Exe8.pdb
+/Users/fritzen.alisson/Desktop/Exe/Exe8/obj/Debug/net6.0/Exe8.genruntimeconfig.cache
+/Users/fritzen.alisson/Desktop/Exe/Exe8/obj/Debug/net6.0/ref/Exe8.dll

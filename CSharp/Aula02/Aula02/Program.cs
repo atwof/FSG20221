@@ -10,6 +10,10 @@ namespace Aula02
             int media = 6;
 
             Console.Write("Digite a primeira nota do aluno: ");
+
+            string t = Console.ReadLine();
+
+            int v = int.Parse(t);
             double n1 = double.Parse(Console.ReadLine());
 
             Console.Write("Digite a segunda nota do aluno: ");

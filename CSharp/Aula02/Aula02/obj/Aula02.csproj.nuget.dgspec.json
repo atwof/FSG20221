@@ -14,7 +14,7 @@
         "outputPath": "/Users/fritzen.alisson/Projects/CSharp/Aula02/Aula02/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/fritzen.alisson/.config/NuGet/NuGet.Config"
+          "/Users/fritzen.alisson/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,15 @@
+/Users/fritzen.alisson/Desktop/Exe/Exe6/bin/Debug/net6.0/Exe6
+/Users/fritzen.alisson/Desktop/Exe/Exe6/bin/Debug/net6.0/Exe6.deps.json
+/Users/fritzen.alisson/Desktop/Exe/Exe6/bin/Debug/net6.0/Exe6.runtimeconfig.json
+/Users/fritzen.alisson/Desktop/Exe/Exe6/bin/Debug/net6.0/Exe6.dll
+/Users/fritzen.alisson/Desktop/Exe/Exe6/bin/Debug/net6.0/Exe6.pdb
+/Users/fritzen.alisson/Desktop/Exe/Exe6/obj/Debug/net6.0/Exe6.csproj.AssemblyReference.cache
+/Users/fritzen.alisson/Desktop/Exe/Exe6/obj/Debug/net6.0/Exe6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fritzen.alisson/Desktop/Exe/Exe6/obj/Debug/net6.0/Exe6.AssemblyInfoInputs.cache
+/Users/fritzen.alisson/Desktop/Exe/Exe6/obj/Debug/net6.0/Exe6.AssemblyInfo.cs
+/Users/fritzen.alisson/Desktop/Exe/Exe6/obj/Debug/net6.0/Exe6.csproj.CoreCompileInputs.cache
+/Users/fritzen.alisson/Desktop/Exe/Exe6/obj/Debug/net6.0/Exe6.dll
+/Users/fritzen.alisson/Desktop/Exe/Exe6/obj/Debug/net6.0/refint/Exe6.dll
+/Users/fritzen.alisson/Desktop/Exe/Exe6/obj/Debug/net6.0/Exe6.pdb
+/Users/fritzen.alisson/Desktop/Exe/Exe6/obj/Debug/net6.0/Exe6.genruntimeconfig.cache
+/Users/fritzen.alisson/Desktop/Exe/Exe6/obj/Debug/net6.0/ref/Exe6.dll
