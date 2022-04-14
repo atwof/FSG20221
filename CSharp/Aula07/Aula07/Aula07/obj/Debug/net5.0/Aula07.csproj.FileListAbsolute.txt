@@ -1,0 +1,15 @@
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/bin/Debug/net5.0/Aula07.deps.json
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/bin/Debug/net5.0/Aula07.runtimeconfig.json
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/bin/Debug/net5.0/Aula07.runtimeconfig.dev.json
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/bin/Debug/net5.0/Aula07.dll
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/bin/Debug/net5.0/ref/Aula07.dll
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/bin/Debug/net5.0/Aula07.pdb
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/obj/Debug/net5.0/Aula07.csproj.AssemblyReference.cache
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/obj/Debug/net5.0/Aula07.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/obj/Debug/net5.0/Aula07.AssemblyInfoInputs.cache
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/obj/Debug/net5.0/Aula07.AssemblyInfo.cs
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/obj/Debug/net5.0/Aula07.csproj.CoreCompileInputs.cache
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/obj/Debug/net5.0/Aula07.dll
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/obj/Debug/net5.0/ref/Aula07.dll
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/obj/Debug/net5.0/Aula07.pdb
+/Users/fritzen.alisson/Projects/CSharp/Aula07/Aula07/Aula07/obj/Debug/net5.0/Aula07.genruntimeconfig.cache
