@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     txtLogin.setText(null);
                     txtSenha.setText(null);
-                    Intent intent = new Intent(getApplicationContext(), CadastrarCliente.class);
+                    Intent intent = new Intent(getApplicationContext(), Escolhas.class);
                     startActivity(intent);
                 }
                 else

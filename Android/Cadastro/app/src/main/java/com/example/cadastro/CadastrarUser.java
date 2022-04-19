@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class CadastrarUser extends AppCompatActivity {
 
     EditText txtLoginCadastro, txtSenhaCadastro;
-    Button btnSalvarCadastro, btnCancelarCadastro;
+    Button btnSalvarCadastro, btnCancelarCadastro, btnVoltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ public class CadastrarUser extends AppCompatActivity {
         txtSenhaCadastro = findViewById(R.id.txtSenhaCadastro);
         btnSalvarCadastro = findViewById(R.id.btnSalvarCadastro);
         btnCancelarCadastro = findViewById(R.id.btnCancelarCadastro);
+        btnVoltar = findViewById(R.id.btnVoltar);
 
         txtLoginCadastro.setText(null);
         txtSenhaCadastro.setText(null);
@@ -48,10 +49,19 @@ public class CadastrarUser extends AppCompatActivity {
             }
         });
 
-        btnCancelarCadastro.setOnClickListener(new View.OnClickListener() {
+        btnVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
+            }
+        });
+
+        btnCancelarCadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                txtLoginCadastro.setText(null);
+                txtSenhaCadastro.setText(null);
+                txtLoginCadastro.requestFocus();
             }
         });
 
@@ -59,11 +69,12 @@ public class CadastrarUser extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(txtLoginCadastro.getText().toString().trim() != null &&
-                   txtSenhaCadastro.getText().toString().trim() != null)
-                {
+                String login = txtLoginCadastro.getText().toString().trim();
+                String password = txtSenhaCadastro.getText().toString().trim();
+
+                if (!login.isEmpty() && !password.isEmpty()) {
                     DataBase dataBase = new DataBase(getApplicationContext());
-                    if(!dataBase.validateUser(txtLoginCadastro.getText().toString().trim(), null)) {
+                    if (!dataBase.validateUser(txtLoginCadastro.getText().toString().trim(), null)) {
                         if (dataBase.insertUser(txtLoginCadastro.getText().toString().trim(),
                                 txtSenhaCadastro.getText().toString().trim()) == -1) {
                             Toast.makeText(getApplicationContext(), "Erro ao inserir novo usuário", Toast.LENGTH_SHORT).show();
@@ -75,12 +86,14 @@ public class CadastrarUser extends AppCompatActivity {
 
                         txtLoginCadastro.setText(null);
                         txtSenhaCadastro.setText(null);
-                    }
-                    else
-                    {
+                    } else {
                         Toast.makeText(getApplicationContext(), "Usuário já existe", Toast.LENGTH_LONG).show();
                         txtLoginCadastro.requestFocus();
                     }
+                }
+                else
+                {
+                    Toast.makeText(getApplicationContext(), "Informe login e senha", Toast.LENGTH_SHORT).show();
                 };
             }
         });

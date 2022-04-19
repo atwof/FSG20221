@@ -33,12 +33,24 @@ public class CadastrarCliente extends AppCompatActivity {
                 String address = txtAddress.getText().toString().trim();
                 String phone = txtPhone.getText().toString().trim();
 
-                if(name == null) {
+                if (name.isEmpty()) {
                     Toast.makeText(getApplicationContext(), "Nome não pode ser nulo", Toast.LENGTH_SHORT).show();
                     txtName.requestFocus();
                 }
+                else
+                {
+                    DataBase db = new DataBase(getApplicationContext());
+                    long result = db.insertClient(name, address, phone);
 
-
+                    if(result == -1)
+                    {
+                        Toast.makeText(getApplicationContext(), "Erro ao inserir cliente", Toast.LENGTH_SHORT).show();
+                    }
+                    else
+                    {
+                        Toast.makeText(getApplicationContext(), "Cliente inserido com sucesso", Toast.LENGTH_LONG);
+                    }
+                }
             }
         });
 

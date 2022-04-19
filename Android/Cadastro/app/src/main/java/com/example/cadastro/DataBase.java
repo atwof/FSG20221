@@ -68,6 +68,20 @@ public class DataBase extends SQLiteOpenHelper {
         return result;
     }
 
+    long insertClient(String name, String address, String phone)
+    {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues cv = new ContentValues();
+
+        cv.put(COLUMN_CLIENTS_NAME, name);
+        cv.put(COLUMN_CLIENTS_ADDRESS, address);
+        cv.put(COLUMN_CLIENTS_PHONE, phone);
+
+        long result = db.insert(TABLE_CLIENTS, null, cv);
+
+        return result;
+    }
+
     Cursor searchUser(String user, String password)
     {
         SQLiteDatabase database = getReadableDatabase();
