@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Idade do doguinho</string>
+    <string name="app_title">Calcule a idade do seu doguinho!</string>
+    <string name="app_age">Digite a idade do doguinho</string>
+    <string name="app_dog">Porte do doguinho</string>
+    <string name="app_calc">Calcular idade do doguinho</string>
+
+    <string-array name="portes">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+</resources>

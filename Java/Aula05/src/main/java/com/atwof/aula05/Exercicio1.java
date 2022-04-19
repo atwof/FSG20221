@@ -14,33 +14,33 @@ public class Exercicio1
     public static void Exe1()
     {
         Scanner sc = new Scanner(System.in);
-        Set<String> palavras = new HashSet<>();
-        
         System.out.println("Digite uma frase: ");
         String[] texto = sc.nextLine().split(" ");
         
+        Set<String> palavras = new HashSet<>();
         for(String item : texto)
         {
             palavras.add(item);
         }
         
-        Iterator<String> i = palavras.iterator();
-        for(int j = 0; j < palavras.size(); j++)
-        {
+        int total = 0;
+        for(String i : palavras)
+        {   
             int cont = 0;
-            
-            while(i.hasNext())
+            for (int j = 0; j < texto.length; j++)
             {
-                if(palavras.contains(j))
+                if(i.equals(texto[j]))
                 {
-                    cont += 1;
+                    cont++;
                 }
             }
             
             if(cont == 1)
             {
-                System.out.println(i);
+                total++;
             }
         }
+        
+        System.out.println("Quantidade de palavras não repetidas: " + total);
     }
 }

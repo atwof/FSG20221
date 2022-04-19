@@ -14,9 +14,10 @@ public class Main
 {
     public static void main(String[] args)
     {
-        //Exercicio2.Exe1();
+       //Exercicio1.Exe1();
+       //Exercicio2.Exe1();
         
-       Exercicio1.Exe1();
+       Exercicio3.Exe1();
         
     }
 }

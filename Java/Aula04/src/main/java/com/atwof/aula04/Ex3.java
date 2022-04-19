@@ -28,6 +28,8 @@ public class Ex3
         bandas.add("Euphonik");
         bandas.add("Broadway");
         
+        System.out.println("Lista original" + bandas);
+        
         System.out.println("Removendo a banda " + bandas.get(2).toUpperCase() + " da lista de bandas");
         bandas.remove(2);
         Thread.currentThread().sleep(2000);

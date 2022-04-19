@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SISTEMA DE CADASTRO</string>
+    <string name="app_enter">Entrar</string>
+    <string name="app_login">Login</string>
+    <string name="app_password">Password</string>
+    <string name="app_signup">Cadastrar</string>
+    <string name="app_signup_title">Dados do usuário</string>
+    <string name="app_cancel">Cancelar</string>
+    <string name="app_save">Salvar</string>
+    <string name="app_client_email">Email</string>
+    <string name="app_client_name">Nome</string>
+    <string name="app_client_address">Endereço</string>
+    <string name="app_return">Voltar</string>
+</resources>
