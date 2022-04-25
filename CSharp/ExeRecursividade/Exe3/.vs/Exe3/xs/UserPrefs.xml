@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{D2D02EC9-E5E2-497F-83F0-6F4BE90A8443}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exe3/Program.cs">
+    <Files>
+      <File FileName="Exe3/Program.cs" Line="53" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Exe3" expanded="True">
+            <Node name="Exe3" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Exe3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

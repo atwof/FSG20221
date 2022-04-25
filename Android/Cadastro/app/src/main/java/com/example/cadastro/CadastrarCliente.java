@@ -10,8 +10,8 @@ import android.widget.Toast;
 
 public class CadastrarCliente extends AppCompatActivity {
 
-    EditText txtName, txtAddress, txtPhone;
-    Button btnSave, btnCancel, btnReturn;
+    private EditText txtName, txtAddress, txtMail;
+    private Button btnSave, btnCancel, btnReturn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class CadastrarCliente extends AppCompatActivity {
 
         txtName = findViewById(R.id.txtName);
         txtAddress = findViewById(R.id.txtAddress);
-        txtPhone = findViewById(R.id.txtPhone);
+        txtMail = findViewById(R.id.txtPhone);
         btnSave = findViewById(R.id.btnSave);
         btnCancel = findViewById(R.id.btnCancel);
         btnReturn = findViewById(R.id.btnReturn);
@@ -31,7 +31,7 @@ public class CadastrarCliente extends AppCompatActivity {
 
                 String name = txtName.getText().toString().trim();
                 String address = txtAddress.getText().toString().trim();
-                String phone = txtPhone.getText().toString().trim();
+                String mail = txtMail.getText().toString().trim();
 
                 if (name.isEmpty()) {
                     Toast.makeText(getApplicationContext(), "Nome não pode ser nulo", Toast.LENGTH_SHORT).show();
@@ -40,7 +40,7 @@ public class CadastrarCliente extends AppCompatActivity {
                 else
                 {
                     DataBase db = new DataBase(getApplicationContext());
-                    long result = db.insertClient(name, address, phone);
+                    long result = db.insertClient(name, address, null);
 
                     if(result == -1)
                     {
@@ -48,7 +48,11 @@ public class CadastrarCliente extends AppCompatActivity {
                     }
                     else
                     {
-                        Toast.makeText(getApplicationContext(), "Cliente inserido com sucesso", Toast.LENGTH_LONG);
+                        Toast.makeText(getApplicationContext(), "Cliente inserido com sucesso", Toast.LENGTH_LONG).show();
+                        txtName.setText(null);
+                        txtAddress.setText(null);
+                        txtMail.setText(null);
+                        txtName.requestFocus();
                     }
                 }
             }
@@ -59,7 +63,7 @@ public class CadastrarCliente extends AppCompatActivity {
             public void onClick(View view) {
                 txtName.setText(null);
                 txtAddress.setText(null);
-                txtPhone.setText(null);
+                txtMail.setText(null);
                 txtName.requestFocus();
             }
         });

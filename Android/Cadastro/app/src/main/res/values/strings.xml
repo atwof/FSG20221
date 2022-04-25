@@ -7,7 +7,7 @@
     <string name="app_signup_title">Dados do usuário</string>
     <string name="app_cancel">Cancelar</string>
     <string name="app_save">Salvar</string>
-    <string name="app_client_phone">Telefone</string>
+    <string name="app_client_mail">Email</string>
     <string name="app_client_name">Nome</string>
     <string name="app_client_address">Endereço</string>
     <string name="app_return">Voltar</string>

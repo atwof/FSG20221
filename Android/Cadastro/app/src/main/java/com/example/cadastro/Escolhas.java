@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class Escolhas extends AppCompatActivity {
 
-    Button btnCadastrarCliente, btnListarClientes, btnSair;
+    private Button btnCadastrarCliente, btnListarClientes, btnSair;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

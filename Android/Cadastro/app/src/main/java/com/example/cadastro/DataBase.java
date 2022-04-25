@@ -24,7 +24,7 @@ public class DataBase extends SQLiteOpenHelper {
     private static final String COLUMN_CLIENTS_ID = "_id";
     private static final String COLUMN_CLIENTS_NAME = "name";
     private static final String COLUMN_CLIENTS_ADDRESS = "address";
-    private static final String COLUMN_CLIENTS_PHONE = "phone";
+    private static final String COLUMN_CLIENTS_MAIL= "mail";
 
     public DataBase(@Nullable Context context) {
         super(context, DB_SYSTEM, null, DB_SYSTEM_VERSION);
@@ -44,7 +44,7 @@ public class DataBase extends SQLiteOpenHelper {
                 "(" + COLUMN_CLIENTS_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 COLUMN_CLIENTS_NAME + " TEXT, " +
                 COLUMN_CLIENTS_ADDRESS + " TEXT," +
-                COLUMN_CLIENTS_PHONE + " TEXT)";
+                COLUMN_CLIENTS_MAIL + " TEXT)";
         db.execSQL(query);
     }
 
@@ -75,7 +75,7 @@ public class DataBase extends SQLiteOpenHelper {
 
         cv.put(COLUMN_CLIENTS_NAME, name);
         cv.put(COLUMN_CLIENTS_ADDRESS, address);
-        cv.put(COLUMN_CLIENTS_PHONE, phone);
+        cv.put(COLUMN_CLIENTS_MAIL, phone);
 
         long result = db.insert(TABLE_CLIENTS, null, cv);
 

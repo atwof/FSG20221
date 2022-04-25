@@ -11,8 +11,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnLogin, btnCadastrar;
-    EditText txtLogin, txtSenha;
+    private Button btnLogin, btnCadastrar;
+    private EditText txtLogin, txtSenha;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         btnLogin = findViewById(R.id.btnLogin);
         txtLogin = findViewById(R.id.txtLogin);
         txtSenha = findViewById(R.id.txtSenha);
+
+        txtLogin.requestFocus();
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override

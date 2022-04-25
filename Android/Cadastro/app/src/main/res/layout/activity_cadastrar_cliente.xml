@@ -41,7 +41,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="24dp"
         android:ems="10"
-        android:hint="@string/app_client_phone"
+        android:hint="@string/app_client_mail"
         android:inputType="textPersonName|textEmailAddress"
         android:textColor="@color/white"
         android:textColorHint="@color/colorSecondary"

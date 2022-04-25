@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void CalcularIdade(View v)
     {
-
         try
         {
             String opc = txtPorte.getSelectedItem().toString();

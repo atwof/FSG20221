@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulaVetores", "AulaVetores\AulaVetores.csproj", "{E827AB96-921F-4047-A63B-C96DA72DB75A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E827AB96-921F-4047-A63B-C96DA72DB75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E827AB96-921F-4047-A63B-C96DA72DB75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E827AB96-921F-4047-A63B-C96DA72DB75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E827AB96-921F-4047-A63B-C96DA72DB75A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C1C962D-E478-466C-BF80-E1C3F88532B6}
+	EndGlobalSection
+EndGlobal

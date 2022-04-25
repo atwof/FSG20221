@@ -1,0 +1,15 @@
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/bin/Debug/net5.0/Exe4.deps.json
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/bin/Debug/net5.0/Exe4.runtimeconfig.json
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/bin/Debug/net5.0/Exe4.runtimeconfig.dev.json
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/bin/Debug/net5.0/Exe4.dll
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/bin/Debug/net5.0/ref/Exe4.dll
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/bin/Debug/net5.0/Exe4.pdb
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/obj/Debug/net5.0/Exe4.csproj.AssemblyReference.cache
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/obj/Debug/net5.0/Exe4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/obj/Debug/net5.0/Exe4.AssemblyInfoInputs.cache
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/obj/Debug/net5.0/Exe4.AssemblyInfo.cs
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/obj/Debug/net5.0/Exe4.csproj.CoreCompileInputs.cache
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/obj/Debug/net5.0/Exe4.dll
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/obj/Debug/net5.0/ref/Exe4.dll
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/obj/Debug/net5.0/Exe4.pdb
+/Users/fritzen.alisson/Projects/CSharp/ExeRecursividade/Exe4/Exe4/obj/Debug/net5.0/Exe4.genruntimeconfig.cache

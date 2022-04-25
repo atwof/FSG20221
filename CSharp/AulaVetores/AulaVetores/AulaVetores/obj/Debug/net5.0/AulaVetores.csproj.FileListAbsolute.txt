@@ -1,0 +1,15 @@
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/bin/Debug/net5.0/AulaVetores.deps.json
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/bin/Debug/net5.0/AulaVetores.runtimeconfig.json
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/bin/Debug/net5.0/AulaVetores.runtimeconfig.dev.json
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/bin/Debug/net5.0/AulaVetores.dll
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/bin/Debug/net5.0/ref/AulaVetores.dll
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/bin/Debug/net5.0/AulaVetores.pdb
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/obj/Debug/net5.0/AulaVetores.csproj.AssemblyReference.cache
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/obj/Debug/net5.0/AulaVetores.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/obj/Debug/net5.0/AulaVetores.AssemblyInfoInputs.cache
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/obj/Debug/net5.0/AulaVetores.AssemblyInfo.cs
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/obj/Debug/net5.0/AulaVetores.csproj.CoreCompileInputs.cache
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/obj/Debug/net5.0/AulaVetores.dll
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/obj/Debug/net5.0/ref/AulaVetores.dll
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/obj/Debug/net5.0/AulaVetores.pdb
+/Users/fritzen.alisson/Projects/CSharp/AulaVetores/AulaVetores/AulaVetores/obj/Debug/net5.0/AulaVetores.genruntimeconfig.cache

@@ -10,8 +10,8 @@ import android.widget.Toast;
 
 public class CadastrarUser extends AppCompatActivity {
 
-    EditText txtLoginCadastro, txtSenhaCadastro;
-    Button btnSalvarCadastro, btnCancelarCadastro, btnVoltar;
+    private EditText txtLoginCadastro, txtSenhaCadastro;
+    private Button btnSalvarCadastro, btnCancelarCadastro, btnVoltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
