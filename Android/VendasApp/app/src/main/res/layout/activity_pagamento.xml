@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Pagamento">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="260dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="83dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_payment" />
+
+    <TextView
+        android:id="@+id/lblTitlePagamentos"
+        android:layout_width="350dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="202dp"
+        android:text="@string/app_pagamentos"
+        android:textColor="@color/colorSecondary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Spinner
+        android:id="@+id/comboPagamentos"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="87dp"
+        android:entries="@array/pagamentos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTitlePagamentos" />
+
+    <EditText
+        android:id="@+id/txtValorPago"
+        android:layout_width="350dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/app_valorPago"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comboPagamentos" />
+
+    <TextView
+        android:id="@+id/txtTroco"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="31dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtValorPago" />
+
+    <Button
+        android:id="@+id/btnFinalizarVenda"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="@color/colorSecondary"
+        android:text="@string/app_finalizar_venda"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTroco" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

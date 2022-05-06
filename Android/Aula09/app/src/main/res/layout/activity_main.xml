@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/spaceTop"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_stadia_controller_48px" />
+
+    <TextView
+        android:id="@+id/space12"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center|top"
+        android:layout_weight="1"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorSecondary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+
+    <CheckBox
+        android:id="@+id/cbFutebol"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:includeFontPadding="false"
+        android:text="@string/app_futebol"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbVolei"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="@string/app_volei"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbBasquete"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="@string/app_basquete"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbTenis"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="@string/app_tenis"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/scape2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/colorSecondary"
+        android:text="@string/app_enviar"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/space3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

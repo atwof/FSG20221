@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Definição de esportes</string>
+    <string name="app_futebol">Futebol</string>
+    <string name="app_volei">Vôlei</string>
+    <string name="app_tenis">Tênis</string>
+    <string name="app_basquete">Basquete</string>
+    <string name="app_enviar">Enviar</string>
+</resources>

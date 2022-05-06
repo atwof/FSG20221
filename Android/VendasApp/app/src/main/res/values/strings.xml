@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">VendasApp</string>
+    <string name="app_calcular">Pagar</string>
+    <string name="app_desconto">Digite o desconto da compra (%)</string>
+    <string name="app_valor">Digite o valor da compra</string>
+    <string name="app_title">Informações sobre a venda</string>
+    <string name="app_cartao">Cartão</string>
+    <string name="app_dinheiro">Dinheiro</string>
+    <string name="app_pix">Pix</string>
+    <string name="app_pagamentos">Formas de pagamento</string>
+    <string name="app_valorPago">Valor pago</string>
+    <string name="app_finalizar_venda">Finalizar venda</string>
+
+    <string-array name="pagamentos">
+        <item>Large</item>
+        <item>Dinheiro</item>
+        <item>Pix</item>
+    </string-array>
+</resources>
