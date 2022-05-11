@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{E2F1B037-EC6D-4805-82D4-8E0B8EC42133}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KarineWebsite/Pages/_ViewImports.cshtml">
+    <Files>
+      <File FileName="KarineWebsite/Startup.cs" Line="1" Column="1" />
+      <File FileName="KarineWebsite/appsettings.json" Line="1" Column="1" />
+      <File FileName="KarineWebsite/Properties/launchSettings.json" Line="4" Column="37" />
+      <File FileName="KarineWebsite/Program.cs" Line="13" Column="6" />
+      <File FileName="KarineWebsite/wwwroot/css/site.css" Line="1" Column="1" />
+      <File FileName="KarineWebsite/wwwroot/js/site.js" Line="1" Column="1" />
+      <File FileName="KarineWebsite/Pages/Index.cshtml" Line="1" Column="1" />
+      <File FileName="KarineWebsite/Pages/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="KarineWebsite/Pages/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="KarineWebsite/Pages/_ViewImports.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="KarineWebsite" expanded="True">
+            <Node name="KarineWebsite" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="_ViewImports.cshtml" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.KarineWebsite PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

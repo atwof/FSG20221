@@ -41,11 +41,13 @@ public class MainActivity extends AppCompatActivity {
                     txtValor.requestFocus();
                 }
 
-                if (valorDesconto < 0 || valor < 1) {
+                if (valorDesconto < 0 || valor == 0) {
                     Toast.makeText(getApplicationContext(), "Digite valores válidos", Toast.LENGTH_SHORT).show();
                     txtValor.requestFocus();
                 } else {
-                    valorFinal = valor - (valor * (valorDesconto / 100));
+                    valorFinal = Math.round(valor - (valor * (valorDesconto / 100)));
+                    txtValor.setText(null);
+                    txtDesconto.setText(null);
                     Intent intent = new Intent(getApplicationContext(), Pagamento.class);
                     intent.putExtra("valorFinal", valorFinal);
                     startActivity(intent);

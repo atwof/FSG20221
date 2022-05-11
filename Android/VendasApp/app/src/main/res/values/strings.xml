@@ -12,7 +12,7 @@
     <string name="app_finalizar_venda">Finalizar venda</string>
 
     <string-array name="pagamentos">
-        <item>Large</item>
+        <item>Cartão</item>
         <item>Dinheiro</item>
         <item>Pix</item>
     </string-array>

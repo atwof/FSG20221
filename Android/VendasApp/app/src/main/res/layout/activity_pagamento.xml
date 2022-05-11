@@ -38,53 +38,25 @@
     <Spinner
         android:id="@+id/comboPagamentos"
         android:layout_width="350dp"
-        android:layout_height="30dp"
+        android:layout_height="48dp"
         android:layout_marginStart="68dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="87dp"
+        android:background="@color/colorSecondary"
         android:entries="@array/pagamentos"
+        android:textColor="@color/white"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblTitlePagamentos" />
-
-    <EditText
-        android:id="@+id/txtValorPago"
-        android:layout_width="350dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="31dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/app_valorPago"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/comboPagamentos" />
-
-    <TextView
-        android:id="@+id/txtTroco"
-        android:layout_width="350dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="34dp"
-        android:layout_marginEnd="31dp"
-        android:textAlignment="viewStart"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        android:textStyle="italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtValorPago" />
 
     <Button
         android:id="@+id/btnFinalizarVenda"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="31dp"
         android:backgroundTint="@color/colorSecondary"
         android:text="@string/app_finalizar_venda"
@@ -92,7 +64,41 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtTroco" />
+        app:layout_constraintTop_toBottomOf="@+id/txtValorDevido" />
+
+    <EditText
+        android:id="@+id/txtValorPago"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="@string/app_valorPago"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comboPagamentos" />
+
+    <TextView
+        android:id="@+id/txtValorDevido"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="31dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorSecondary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtValorPago" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
