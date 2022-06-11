@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.atwof.aula11;
 
 /**
@@ -13,7 +8,8 @@ public enum Cargo
 {
     DESENVOLVEDOR(new DezOuVintePorCento()),
     DBA(new QuinzeOuVinteCincoPorcento()),
-    TESTER(new QuinzeOuVinteCincoPorcento());
+    TESTER(new QuinzeOuVinteCincoPorcento()),
+    ANALISTA(new DezOuVintePorCento());
     
     private final RegraDeCalculo regra;
     

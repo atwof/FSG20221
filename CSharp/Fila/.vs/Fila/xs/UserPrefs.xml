@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{A1A55845-043C-486A-8857-11B99DA94218}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fila/Fila.cs">
+    <Files>
+      <File FileName="Fila/Program.cs" Line="14" Column="13" />
+      <File FileName="Fila/Fila.cs" Line="26" Column="14" />
+      <File FileName="Fila/ItemFila.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Fila" expanded="True">
+            <Node name="Fila" expanded="True">
+              <Node name="Fila.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Fila PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

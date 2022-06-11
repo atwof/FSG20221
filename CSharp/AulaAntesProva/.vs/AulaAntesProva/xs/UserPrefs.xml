@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{07D2E599-1524-4DC4-95B4-C8FB7FD5719A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fila.cs">
+    <Files>
+      <File FileName="Fila.cs" Line="11" Column="33" />
+      <File FileName="ItemFila.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="9" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AulaAntesProva" expanded="True">
+            <Node name="AulaAntesProva" expanded="True">
+              <Node name="Fila.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AulaAntesProva PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

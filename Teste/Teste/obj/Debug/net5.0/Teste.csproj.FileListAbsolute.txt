@@ -1,0 +1,15 @@
+/Users/fritzen.alisson/Projects/Teste/Teste/obj/Debug/net5.0/Teste.csproj.AssemblyReference.cache
+/Users/fritzen.alisson/Projects/Teste/Teste/obj/Debug/net5.0/Teste.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fritzen.alisson/Projects/Teste/Teste/obj/Debug/net5.0/Teste.AssemblyInfoInputs.cache
+/Users/fritzen.alisson/Projects/Teste/Teste/obj/Debug/net5.0/Teste.AssemblyInfo.cs
+/Users/fritzen.alisson/Projects/Teste/Teste/obj/Debug/net5.0/Teste.csproj.CoreCompileInputs.cache
+/Users/fritzen.alisson/Projects/Teste/Teste/bin/Debug/net5.0/Teste.deps.json
+/Users/fritzen.alisson/Projects/Teste/Teste/bin/Debug/net5.0/Teste.runtimeconfig.json
+/Users/fritzen.alisson/Projects/Teste/Teste/bin/Debug/net5.0/Teste.runtimeconfig.dev.json
+/Users/fritzen.alisson/Projects/Teste/Teste/bin/Debug/net5.0/Teste.dll
+/Users/fritzen.alisson/Projects/Teste/Teste/bin/Debug/net5.0/ref/Teste.dll
+/Users/fritzen.alisson/Projects/Teste/Teste/bin/Debug/net5.0/Teste.pdb
+/Users/fritzen.alisson/Projects/Teste/Teste/obj/Debug/net5.0/Teste.dll
+/Users/fritzen.alisson/Projects/Teste/Teste/obj/Debug/net5.0/ref/Teste.dll
+/Users/fritzen.alisson/Projects/Teste/Teste/obj/Debug/net5.0/Teste.pdb
+/Users/fritzen.alisson/Projects/Teste/Teste/obj/Debug/net5.0/Teste.genruntimeconfig.cache

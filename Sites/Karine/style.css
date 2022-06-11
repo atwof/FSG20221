@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#checkboxTexto {
+    color: red;
+    text-align: center;
+}
+#btnTexto {
+    background-color: green;
+    border: none;
+    color:white;
+    margin: 2rem auto;
+    padding: 1em;
+    border-radius: 1rem;
+    font-weight: bold;
+    display: block;
+}

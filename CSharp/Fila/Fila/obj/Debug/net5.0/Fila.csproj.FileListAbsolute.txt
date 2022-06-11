@@ -1,0 +1,15 @@
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/obj/Debug/net5.0/Fila.csproj.AssemblyReference.cache
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/obj/Debug/net5.0/Fila.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/obj/Debug/net5.0/Fila.AssemblyInfoInputs.cache
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/obj/Debug/net5.0/Fila.AssemblyInfo.cs
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/obj/Debug/net5.0/Fila.csproj.CoreCompileInputs.cache
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/bin/Debug/net5.0/Fila.deps.json
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/bin/Debug/net5.0/Fila.runtimeconfig.json
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/bin/Debug/net5.0/Fila.runtimeconfig.dev.json
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/bin/Debug/net5.0/Fila.dll
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/bin/Debug/net5.0/ref/Fila.dll
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/bin/Debug/net5.0/Fila.pdb
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/obj/Debug/net5.0/Fila.dll
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/obj/Debug/net5.0/ref/Fila.dll
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/obj/Debug/net5.0/Fila.pdb
+/Users/fritzen.alisson/Projects/CSharp/Fila/Fila/obj/Debug/net5.0/Fila.genruntimeconfig.cache

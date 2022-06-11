@@ -13,8 +13,8 @@ public class SolidSRP
         Funcionario teste = new Funcionario();
         teste.setId(1);
         teste.setNome("Alisson");
-        teste.setCargo(Cargo.DBA);
-        teste.setSalarioBase(4000);
+        teste.setCargo(Cargo.ANALISTA);
+        teste.setSalarioBase(5000);
         
         Calendar c = Calendar.getInstance();
         c.set(2022, 11, 30);
