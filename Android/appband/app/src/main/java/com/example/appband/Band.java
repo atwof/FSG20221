@@ -8,7 +8,7 @@ public class Band {
 
     private String name;
     private String music;
-    private Date dateRelease;
+    private String dateRelease;
     private String style;
 
     public Band()
@@ -16,7 +16,7 @@ public class Band {
 
     }
 
-    public Band(String name, String music, Date dateRelease, String style)
+    public Band(String name, String music, String dateRelease, String style)
     {
         this.name = name;
         this.music = music;
@@ -36,11 +36,11 @@ public class Band {
 
     public void setMusic(String music) { this.music = music; }
 
-    public Date getDateRelease() {
+    public String getDateRelease() {
         return dateRelease;
     }
 
-    public void setDateRelease(Date dateRelease) {
+    public void setDateRelease(String dateRelease) {
         this.dateRelease = dateRelease;
     }
 

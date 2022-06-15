@@ -27,7 +27,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="28dp"
         android:ems="15"
-        android:hint="Nome da música"
+        android:hint="@string/app_hint_music"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColor="@color/colorPrimaryLight"
@@ -36,13 +36,13 @@
         app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
 
     <EditText
-        android:id="@+id/txtBand"
+        android:id="@+id/txtDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="16dp"
         android:ems="15"
-        android:hint="Nome da banda"
+        android:hint="@string/app_hint_date"
         android:inputType="date"
         android:minHeight="48dp"
         android:textColor="@color/colorPrimaryLight"
@@ -51,19 +51,19 @@
         app:layout_constraintTop_toBottomOf="@+id/txtMusic" />
 
     <EditText
-        android:id="@+id/txtDate"
+        android:id="@+id/txtBand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="16dp"
         android:ems="15"
-        android:hint="Ano de lançamento"
+        android:hint="@string/app_hint_band"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColor="@color/colorPrimaryDark"
         android:textColorHint="@color/colorSecondary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtBand" />
+        app:layout_constraintTop_toBottomOf="@+id/txtDate" />
 
     <Button
         android:id="@+id/btnSave"
@@ -90,13 +90,13 @@
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <Button
-        android:id="@+id/btnNext"
+        android:id="@+id/btnClean"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
         android:layout_marginTop="19dp"
         android:layout_marginEnd="49dp"
-        android:text="@string/app_next"
+        android:text="@string/app_clean"
         android:textAllCaps="true"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -113,7 +113,7 @@
         android:layout_marginEnd="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtDate">
+        app:layout_constraintTop_toBottomOf="@+id/txtBand">
 
         <RadioButton
             android:id="@+id/radioSertanejo"

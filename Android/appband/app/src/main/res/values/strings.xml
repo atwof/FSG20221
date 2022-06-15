@@ -2,7 +2,10 @@
     <string name="app_name">appband</string>
     <string name="app_save">Salvar</string>
     <string name="app_list">Listar</string>
-    <string name="app_next">Próximo</string>
+    <string name="app_clean">Limpar</string>
+    <string name="app_hint_band">Nome da banda</string>
+    <string name="app_hint_date">Data de lançamento</string>
+    <string name="app_hint_music">Nome da música</string>
     <string name="app_sertanejo">Sertanejo</string>
     <string name="app_rock">Rock</string>
     <string name="app_other">Outros</string>

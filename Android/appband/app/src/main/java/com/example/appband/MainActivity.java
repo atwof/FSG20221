@@ -9,13 +9,15 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.Date;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
     private TextView txtBand, txtMusic, txtDate;
-    private Button btnSave, btnList, btnNext;
+    private Button btnSave, btnList, btnClean;
     private RadioButton radioSertanejo, radioRock, radioOther;
+    private List<Band> bandas = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnSave = findViewById(R.id.btnSave);
         btnList = findViewById(R.id.btnList);
-        btnNext = findViewById(R.id.btnNext);
+        btnClean = findViewById(R.id.btnClean);
 
         radioSertanejo = findViewById(R.id.radioSertanejo);
         radioRock = findViewById(R.id.radioRock);
@@ -67,9 +69,94 @@ public class MainActivity extends AppCompatActivity {
                     txtDate.requestFocus();
                 }
                 else {
-                    band.setName(date);
+                    band.setDateRelease(date);
+                }
+
+                // Verificar se algum gênero foi selecionado
+                if(!radioOther.isChecked() && !radioRock.isChecked() && !radioSertanejo.isChecked())
+                {
+                    Toast.makeText(MainActivity.this, "Escolha um gênero musical", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                else
+                {
+                    String result = null;
+                    if(radioSertanejo.isChecked())
+                    {
+                        result = radioSertanejo.getText().toString();
+                    }
+                    else if(radioRock.isChecked())
+                    {
+                        result = radioRock.getText().toString();
+                    }
+                    else
+                    {
+                        result = radioOther.getText().toString();
+                    }
+                    band.setStyle(result);
+                }
+
+                //Salvar a banda atual
+                try
+                {
+                    bandas.add(band);
+                    Toast.makeText(MainActivity.this, "Informações salvas com sucesso", Toast.LENGTH_SHORT).show();
+                }
+                catch(Exception ex)
+                {
+                    Toast.makeText(MainActivity.this, "Erro ao salvar informações", Toast.LENGTH_SHORT).show();
+                }
+
+                limparCampos();
+                txtMusic.requestFocus();
+            }
+        });
+
+        btnList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                limparCampos();
+
+                // Percorrer o array
+                for (Band b : bandas)
+                {
+                    txtMusic.setText(b.getMusic());
+                    txtDate.setText(b.getDateRelease());
+                    txtBand.setText(b.getName());
+
+                    // Verificar qual estilo está selecionado
+                    switch (b.getStyle())
+                    {
+                        case "Sertanejo":
+                            radioSertanejo.setChecked(true);
+                            break;
+                        case "Rock":
+                            radioRock.setChecked(true);
+                            break;
+                        default:
+                            radioOther.setChecked(true);
+                            break;
+                    }
                 }
             }
         });
+
+        btnClean.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                limparCampos();
+            }
+        });
+    }
+
+    public void limparCampos()
+    {
+        txtMusic.setText(null);
+        txtBand.setText(null);
+        txtDate.setText(null);
+        radioRock.setChecked(false);
+        radioSertanejo.setChecked(false);
+        radioOther.setChecked(false);
     }
 }
